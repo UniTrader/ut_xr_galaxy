@@ -22,7 +22,7 @@
     <connection name="xr_cluster_dv_bp_connection" ref="clusters">
       <macro ref="xr_cluster_dv_bp_macro" connection="galaxy"/>
       <offset>
-        <position x="165000000" y="0" z="-77940000"/>
+        <position x="150000000" y="0" z="-86600000"/>
         <!-- X=10; Z=-5 -->
       </offset>
     </connection>
@@ -37,28 +37,28 @@
     <connection name="xr_cluster_al_la_connection" ref="clusters">
       <macro ref="xr_cluster_al_la_macro" connection="galaxy"/>
       <offset>
-        <position x="135000000" y="0" z="-77940000"/>
+        <position x="120000000" y="0" z="-86600000"/>
         <!--X=8 Z=-5 -->
       </offset>
     </connection>
     <connection name="xr_cluster_al_iw_connection" ref="clusters">
       <macro ref="xr_cluster_al_iw_macro" connection="galaxy"/>
       <offset>
-        <position x="135000000" y="0" z="-95260000"/>
+        <position x="120000000" y="0" z="-103920000"/>
         <!--X=8 Z=-6 -->
       </offset>
     </connection>
     <connection name="xr_cluster_al_as_connection" ref="clusters">
       <macro ref="xr_cluster_al_as_macro" connection="galaxy"/>
       <offset>
-        <position x="135000000" y="0" z="-112580000"/>
+        <position x="120000000" y="0" z="-121240000"/>
         <!--X=8 Z=-7 -->
       </offset>
     </connection>
     <connection name="xr_cluster_al_fo_connection" ref="clusters">
       <macro ref="xr_cluster_al_fo_macro" connection="galaxy"/>
       <offset>
-        <position x="150000000" y="0" z="-138560000"/>
+        <position x="135000000" y="0" z="-129900000"/>
         <!--X=9 Z=-8 -->
       </offset>
     </connection>
@@ -66,28 +66,28 @@
     <connection name="xr_cluster_ol_cc_connection" ref="clusters">
       <macro ref="xr_cluster_ol_cc_macro" connection="galaxy"/>
       <offset>
-        <position x="210000000" y="0" z="-69280000"/>
+        <position x="195000000" y="0" z="-60620000"/>
         <!--X=13 Z=-4 -->
       </offset>
     </connection>
     <connection name="xr_cluster_ol_ec_connection" ref="clusters">
       <macro ref="xr_cluster_ol_ec_macro" connection="galaxy"/>
       <offset>
-        <position x="210000000" y="0" z="-86600000"/>
+        <position x="195000000" y="0" z="-77940000"/>
         <!--X=13 Z=-5 -->
       </offset>
     </connection>
     <connection name="xr_cluster_ol_rh_connection" ref="clusters">
       <macro ref="xr_cluster_ol_rh_macro" connection="galaxy"/>
       <offset>
-        <position x="225000000" y="0" z="-60620000"/>
+        <position x="210000000" y="0" z="-69280000"/>
         <!--X=14 Z=-4 -->
       </offset>
     </connection>
     <connection name="xr_cluster_ol_dc_connection" ref="clusters">
       <macro ref="xr_cluster_ol_dc_macro" connection="galaxy"/>
       <offset>
-        <position x="225000000" y="0" z="-77940000"/>
+        <position x="210000000" y="0" z="-86600000"/>
         <!--X=14 Z=-5 -->
       </offset>
     </connection>
@@ -95,21 +95,21 @@
     <connection name="xr_cluster_ma_ss_connection" ref="clusters">
       <macro ref="xr_cluster_ma_ss_macro" connection="galaxy"/>
       <offset>
-        <position x="270000000" y="0" z="-103920000"/>
+        <position x="255000000" y="0" z="-95260000"/>
         <!--X=17 Z=-6 -->
       </offset>
     </connection>
     <connection name="xr_cluster_ma_br_connection" ref="clusters">
       <macro ref="xr_cluster_ma_br_macro" connection="galaxy"/>
       <offset>
-        <position x="255000000" y="0" z="-95260000"/>
+        <position x="240000000" y="0" z="-103920000"/>
         <!--X=16 Z=-6 -->
       </offset>
     </connection>
     <connection name="xr_cluster_ma_sv_connection" ref="clusters">
       <macro ref="xr_cluster_ma_sv_macro" connection="galaxy"/>
       <offset>
-        <position x="240000000" y="0" z="-121240000"/>
+        <position x="225000000" y="0" z="-112580000"/>
         <!--X=15 Z=-7 -->
       </offset>
     </connection>
@@ -117,14 +117,14 @@
     <connection name="xr_cluster_fo_sh_connection" ref="clusters">
       <macro ref="xr_cluster_fo_sh_macro" connection="galaxy"/>
       <offset>
-        <position x="195000000" y="0" z="-95260000"/>
+        <position x="180000000" y="0" z="-103920000"/>
         <!--X=12 Z=-6 -->
       </offset>
     </connection>
     <connection name="xr_cluster_fo_fp_connection" ref="clusters">
       <macro ref="xr_cluster_fo_fp_macro" connection="galaxy"/>
       <offset>
-        <position x="180000000" y="0" z="-121240000"/>
+        <position x="165000000" y="0" z="-112580000"/>
         <!--X=11 Z=-7 -->
       </offset>
     </connection>
@@ -132,7 +132,7 @@
     <connection name="xr_cluster_to_ko_connection" ref="clusters">
       <macro ref="xr_cluster_to_ko_macro" connection="galaxy"/>
       <offset>
-        <position x="210000000" y="0" z="-138560000"/>
+        <position x="195000000" y="0" z="-129900000"/>
         <!--X=13 Z=-8 -->
       </offset>
     </connection>
@@ -140,21 +140,21 @@
     <connection name="xr_cluster_cs_ne_connection" ref="clusters">
       <macro ref="xr_cluster_cs_ne_macro" connection="galaxy"/>
       <offset>
-        <position x="180000000" y="0" z="-155880000"/>
+        <position x="165000000" y="0" z="-147220000"/>
         <!--X=11 Z=-9 -->
       </offset>
     </connection>
     <connection name="xr_cluster_cs_om_connection" ref="clusters">
       <macro ref="xr_cluster_cs_om_macro" connection="galaxy"/>
       <offset>
-        <position x="165000000" y="0" z="-147220000"/>
+        <position x="150000000" y="0" z="-155880000"/>
         <!--X=10 Z=-9 -->
       </offset>
     </connection>
     <connection name="xr_cluster_cs_tq_connection" ref="clusters">
       <macro ref="xr_cluster_cs_tq_macro" connection="galaxy"/>
       <offset>
-        <position x="165000000" y="0" z="-164540000"/>
+        <position x="150000000" y="0" z="-173200000"/>
         <!--X=10 Z=-10 -->
       </offset>
     </connection>
@@ -162,28 +162,28 @@
     <connection name="xr_cluster_hl_wg_connection" ref="clusters">
       <macro ref="xr_cluster_hl_wg_macro" connection="galaxy"/>
       <offset>
-        <position x="210000000" y="0" z="-173200000"/>
+        <position x="195000000" y="0" z="-164540000"/>
         <!--X=13 Z=-10 -->
       </offset>
     </connection>
     <connection name="xr_cluster_hl_st_connection" ref="clusters">
       <macro ref="xr_cluster_hl_st_macro" connection="galaxy"/>
       <offset>
-        <position x="225000000" y="0" z="-147220000"/>
+        <position x="210000000" y="0" z="-155880000"/>
         <!--X=14 Z=-9 -->
       </offset>
     </connection>
     <connection name="xr_cluster_hl_ad_connection" ref="clusters">
       <macro ref="xr_cluster_hl_ad_macro" connection="galaxy"/>
       <offset>
-        <position x="240000000" y="0" z="-173200000"/>
+        <position x="225000000" y="0" z="-164540000"/>
         <!--X=15 Z=-10 -->
       </offset>
     </connection>
     <connection name="xr_cluster_hl_hq_connection" ref="clusters">
       <macro ref="xr_cluster_hl_hq_macro" connection="galaxy"/>
       <offset>
-        <position x="225000000" y="0" z="-164540000"/>
+        <position x="210000000" y="0" z="-173200000"/>
         <!--X=14 Z=-10 -->
       </offset>
     </connection>
