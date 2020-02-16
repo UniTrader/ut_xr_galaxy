@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <diff>
-  <add sel="/macros/macro/connections">
+  <add sel="/macros/macro[@name='XU_EP2_universe_macro']/connections">
     <!-- Calc Formula for Coordinates (A Line and 1 Row contains the coordinates):
 =VERKETTEN("x=";ZEICHEN(34);C$1*15000000;ZEICHEN(34);" y=";ZEICHEN(34);"0";ZEICHEN(34);" z=";ZEICHEN(34);WENN(ISTGERADE(C$1);$A2*17320000;$A2*17320000+8660000);ZEICHEN(34))
  -->
