@@ -2,436 +2,485 @@
 <macros>
   <!-- DeVries-->
   <macro name="xr_cluster_dv_gt_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <macro name="xr_cluster_dv_bh_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <macro name="xr_cluster_dv_bp_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <macro name="xr_cluster_dv_ma_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <!-- Albion -->
   <macro name="xr_cluster_al_la_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <macro name="xr_cluster_al_iw_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <macro name="xr_cluster_al_as_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <macro name="xr_cluster_al_fo_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <!-- Omicron Lyrae-->
   <macro name="xr_cluster_ol_cc_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <macro name="xr_cluster_ol_ec_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <macro name="xr_cluster_ol_rh_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <macro name="xr_cluster_ol_dc_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <!-- Maelstrom -->
   <macro name="xr_cluster_ma_ss_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <macro name="xr_cluster_ma_br_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <macro name="xr_cluster_ma_sv_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <!-- Fields of Opportunity -->
   <macro name="xr_cluster_fo_sh_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <macro name="xr_cluster_fo_fp_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <!-- Toride -->
   <macro name="xr_cluster_to_ko_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <!-- Cold Star-->
   <macro name="xr_cluster_cs_ne_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <macro name="xr_cluster_cs_om_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
-    
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <macro name="xr_cluster_cs_tq_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <!-- Home of Light -->
   <macro name="xr_cluster_hl_wg_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <macro name="xr_cluster_hl_st_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <macro name="xr_cluster_hl_ad_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
   <macro name="xr_cluster_hl_hq_macro" class="cluster">
-    <component ref="standardcluster" />
+    <component ref="standardcluster"/>
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
         <offset>
-          <position x="0" y="0" z="0" />
+          <position x="0" y="0" z="0"/>
         </offset>
-        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster" />
+        <macro ref="Cluster_black_wl_Sector01_macro" connection="cluster"/>
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_sm_background" />
+          <component connection="space" ref="cluster_sm_background"/>
         </macro>
       </connection>
     </connections>
-    <properties/>
+    <properties>
+      <map visible="true"/>
+    </properties>
   </macro>
 </macros>
