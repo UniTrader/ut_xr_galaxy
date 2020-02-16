@@ -17,7 +17,7 @@
             <replace string="'xr_'" with="''"/>
           </substitute_text>
           <do_if value="$check != $reveal.{$i}.macro.id">
-            <debug_text filter="general" text="$reveal.{$i}.macro.id"/>
+            <debug_text filter="general" text="$reveal.{$i}.macro.id + '//' + $reveal.{$i}.position.x + '//' + $reveal.{$i}.position.z"/>
           </do_if>
         </do_all>
       </actions>
