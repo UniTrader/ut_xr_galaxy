@@ -1,4 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <index>
   <entry name="xr_cluster_*" value="extensions\ut_xr_galaxy\maps\xu_ep2_universe\xr_clusters"/>
+  
+  <!-- Referencing unaltered XR Retail files -->
+  <entry name="cluster_a_bg_macro" value="extensions\ut_xr_galaxy\xr_retail_files\assets\environments\cluster\macros\cluster_a_bg_macro"/>
+	<entry name="cluster_b_bg_macro" value="extensions\ut_xr_galaxy\xr_retail_files\assets\environments\cluster\macros\cluster_b_bg_macro"/>
+	<entry name="cluster_c_bg_macro" value="extensions\ut_xr_galaxy\xr_retail_files\assets\environments\cluster\macros\cluster_c_bg_macro"/>
+	<entry name="cluster_d_bg_macro" value="extensions\ut_xr_galaxy\xr_retail_files\assets\environments\cluster\macros\cluster_d_bg_macro"/>
 </index>

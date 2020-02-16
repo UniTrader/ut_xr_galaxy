@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<index>
+
+  <!-- Referencing unaltered XR Retail files -->
+	<entry name="cluster_a" value="extensions\ut_xr_galaxy\xr_retail_files\assets\environments\cluster\cluster_a"/>
+	<entry name="cluster_b" value="extensions\ut_xr_galaxy\xr_retail_files\assets\environments\cluster\cluster_b"/>
+	<entry name="cluster_c" value="extensions\ut_xr_galaxy\xr_retail_files\assets\environments\cluster\cluster_c"/>
+	<entry name="cluster_d" value="extensions\ut_xr_galaxy\xr_retail_files\assets\environments\cluster\cluster_d"/>
+</index>
