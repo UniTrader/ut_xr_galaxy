@@ -4,7 +4,7 @@
     <!-- Calc Formula for Coordinates (A Line and 1 Row contains the coordinates):
 =VERKETTEN("x=";ZEICHEN(34);C$1*15000000;ZEICHEN(34);" y=";ZEICHEN(34);"0";ZEICHEN(34);" z=";ZEICHEN(34);WENN(ISTGERADE(C$1);$A2*17320000;$A2*17320000+8660000);ZEICHEN(34))
  -->
-    <!-- DeVries-->
+    <!-- DeVries, Cluster D-->
     <connection name="xr_cluster_dv_gt_connection" ref="clusters">
       <macro ref="xr_cluster_dv_gt_macro" connection="galaxy"/>
       <offset>
@@ -33,7 +33,7 @@
         <!-- X=11;Z=-5-->
       </offset>
     </connection>
-    <!-- Albion -->
+    <!-- Albion, Cluster B-->
     <connection name="xr_cluster_al_la_connection" ref="clusters">
       <macro ref="xr_cluster_al_la_macro" connection="galaxy"/>
       <offset>
@@ -62,7 +62,7 @@
         <!--X=9 Z=-8 -->
       </offset>
     </connection>
-    <!-- Omicron Lyrae-->
+    <!-- Omicron Lyrae, Cluster C-->
     <connection name="xr_cluster_ol_cc_connection" ref="clusters">
       <macro ref="xr_cluster_ol_cc_macro" connection="galaxy"/>
       <offset>
@@ -91,7 +91,7 @@
         <!--X=14 Z=-5 -->
       </offset>
     </connection>
-    <!-- Maelstrom -->
+    <!-- Maelstrom, Cluster A-->
     <connection name="xr_cluster_ma_ss_connection" ref="clusters">
       <macro ref="xr_cluster_ma_ss_macro" connection="galaxy"/>
       <offset>

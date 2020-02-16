@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <macros>
-  <!-- DeVries-->
+  <!-- DeVries, Cluster D-->
   <macro name="xr_cluster_dv_gt_macro" class="cluster">
     <component ref="standardcluster"/>
     <connections>
@@ -77,7 +77,7 @@
       <map visible="true"/>
     </properties>
   </macro>
-  <!-- Albion -->
+  <!-- Albion, Cluster B-->
   <macro name="xr_cluster_al_la_macro" class="cluster">
     <component ref="standardcluster"/>
     <connections>
@@ -154,7 +154,7 @@
       <map visible="true"/>
     </properties>
   </macro>
-  <!-- Omicron Lyrae-->
+  <!-- Omicron Lyrae, Cluster C-->
   <macro name="xr_cluster_ol_cc_macro" class="cluster">
     <component ref="standardcluster"/>
     <connections>
@@ -231,7 +231,7 @@
       <map visible="true"/>
     </properties>
   </macro>
-  <!-- Maelstrom -->
+  <!-- Maelstrom, Cluster A-->
   <macro name="xr_cluster_ma_ss_macro" class="cluster">
     <component ref="standardcluster"/>
     <connections>
