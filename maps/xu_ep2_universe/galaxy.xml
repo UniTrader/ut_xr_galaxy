@@ -29,7 +29,7 @@
     <connection name="xr_cluster_dv_ma_connection" ref="clusters">
       <macro ref="xr_cluster_dv_ma_macro" connection="galaxy"/>
       <offset>
-        <position x="180000000" y="0" z="-86600000"/>
+        <position x="165000000" y="0" z="-77940000"/>
         <!-- X=11;Z=-5-->
       </offset>
     </connection>
