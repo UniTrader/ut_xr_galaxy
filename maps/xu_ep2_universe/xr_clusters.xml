@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <macros>
   <!-- DeVries-->
-  <macro name="XR_Cluster_DV_GT" class="cluster">
+  <macro name="xr_cluster_dv_gt" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -18,7 +18,7 @@
     </connections>
     <properties/>
   </macro>
-  <macro name="XR_Cluster_DV_BH" class="cluster">
+  <macro name="xr_cluster_dv_bh" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -35,7 +35,7 @@
     </connections>
     <properties/>
   </macro>
-  <macro name="XR_Cluster_DV_BP" class="cluster">
+  <macro name="xr_cluster_dv_bp" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -52,7 +52,7 @@
     </connections>
     <properties/>
   </macro>
-  <macro name="XR_Cluster_DV_MA" class="cluster">
+  <macro name="xr_cluster_dv_ma" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -70,7 +70,7 @@
     <properties/>
   </macro>
   <!-- Albion -->
-  <macro name="XR_Cluster_AL_LA" class="cluster">
+  <macro name="xr_cluster_al_la" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -87,7 +87,7 @@
     </connections>
     <properties/>
   </macro>
-  <macro name="XR_Cluster_AL_IW" class="cluster">
+  <macro name="xr_cluster_al_iw" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -104,7 +104,7 @@
     </connections>
     <properties/>
   </macro>
-  <macro name="XR_Cluster_AL_AS" class="cluster">
+  <macro name="xr_cluster_al_as" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -121,7 +121,7 @@
     </connections>
     <properties/>
   </macro>
-  <macro name="XR_Cluster_AL_FO" class="cluster">
+  <macro name="xr_cluster_al_fo" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -139,7 +139,7 @@
     <properties/>
   </macro>
   <!-- Omicron Lyrae-->
-  <macro name="XR_Cluster_OL_CC" class="cluster">
+  <macro name="xr_cluster_ol_cc" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -156,7 +156,7 @@
     </connections>
     <properties/>
   </macro>
-  <macro name="XR_Cluster_OL_EC" class="cluster">
+  <macro name="xr_cluster_ol_ec" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -173,7 +173,7 @@
     </connections>
     <properties/>
   </macro>
-  <macro name="XR_Cluster_OL_RH" class="cluster">
+  <macro name="xr_cluster_ol_rh" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -190,7 +190,7 @@
     </connections>
     <properties/>
   </macro>
-  <macro name="XR_Cluster_OL_DC" class="cluster">
+  <macro name="xr_cluster_ol_dc" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -208,7 +208,7 @@
     <properties/>
   </macro>
   <!-- Maelstrom -->
-  <macro name="XR_Cluster_MA_SS" class="cluster">
+  <macro name="xr_cluster_ma_ss" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -225,7 +225,7 @@
     </connections>
     <properties/>
   </macro>
-  <macro name="XR_Cluster_MA_BR" class="cluster">
+  <macro name="xr_cluster_ma_br" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -242,7 +242,7 @@
     </connections>
     <properties/>
   </macro>
-  <macro name="XR_Cluster_MA_SV" class="cluster">
+  <macro name="xr_cluster_ma_sv" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -260,7 +260,7 @@
     <properties/>
   </macro>
   <!-- Fields of Opportunity -->
-  <macro name="XR_Cluster_FO_SH" class="cluster">
+  <macro name="xr_cluster_fo_sh" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -277,7 +277,7 @@
     </connections>
     <properties/>
   </macro>
-  <macro name="XR_Cluster_FO_FP" class="cluster">
+  <macro name="xr_cluster_fo_fp" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -295,7 +295,7 @@
     <properties/>
   </macro>
   <!-- Toride -->
-  <macro name="XR_Cluster_TO_KO" class="cluster">
+  <macro name="xr_cluster_to_ko" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -313,7 +313,7 @@
     <properties/>
   </macro>
   <!-- Cold Star-->
-  <macro name="XR_Cluster_CS_NE" class="cluster">
+  <macro name="xr_cluster_cs_ne" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -330,7 +330,7 @@
     </connections>
     <properties/>
   </macro>
-  <macro name="XR_Cluster_CS_OM" class="cluster">
+  <macro name="xr_cluster_cs_om" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -348,7 +348,7 @@
     <properties/>
     
   </macro>
-  <macro name="XR_Cluster_CS_TQ" class="cluster">
+  <macro name="xr_cluster_cs_tq" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -366,7 +366,7 @@
     <properties/>
   </macro>
   <!-- Home of Light -->
-  <macro name="XR_Cluster_HL_WG" class="cluster">
+  <macro name="xr_cluster_hl_wg" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -383,7 +383,7 @@
     </connections>
     <properties/>
   </macro>
-  <macro name="XR_Cluster_HL_ST" class="cluster">
+  <macro name="xr_cluster_hl_st" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -400,7 +400,7 @@
     </connections>
     <properties/>
   </macro>
-  <macro name="XR_Cluster_HL_AD" class="cluster">
+  <macro name="xr_cluster_hl_ad" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
@@ -417,7 +417,7 @@
     </connections>
     <properties/>
   </macro>
-  <macro name="XR_Cluster_HL_HQ" class="cluster">
+  <macro name="xr_cluster_hl_hq" class="cluster">
     <component ref="standardcluster" />
     <connections>
       <connection name="Cluster_black_wl_Sector01_connection" ref="sectors">
