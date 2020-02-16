@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mdscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Map_reveal" xsi:noNamespaceSchemaLocation="http://utnas/~unitrader/XRebirthxsds/md.xsd">
+  <cues>
+    <cue name="Reveal" checktime="10s" checkinterval="5s">
+      <conditions>
+        <cue_is_complete cue="md.Setup.Start"/>
+      </conditions>
+      <actions>
+        <create_group groupname="$reveal"/>
+        <find_cluster groupname="$reveal" multiple="true"/>
+        <find_sector groupname="$reveal" multiple="true" space="player.galaxy"/>
+        <find_zone groupname="$reveal" multiple="true" space="player.galaxy"/>
+        <find_gate groupname="$reveal" multiple="true" space="player.galaxy"/>
+        <do_all exact="$reveal.count" counter="$i">
+          <set_known object="$reveal.{$i}" known="true"/>
+        </do_all>
+      </actions>
+    </cue>
+  </cues>
+</mdscript>
