@@ -13,6 +13,12 @@
         <find_gate groupname="$reveal" multiple="true" space="player.galaxy"/>
         <do_all exact="$reveal.count" counter="$i">
           <set_known object="$reveal.{$i}" known="true"/>
+          <substitute_text text="$check" source="$reveal.{$i}.macro.id">
+            <replace string="'xr_'" with="''"/>
+          </substitute_text>
+          <do_if value="$check != $reveal.{$i}.macro.id">
+            <debug_text filter="general" text="$reveal.{$i}.macro.id"/>
+          </do_if>
         </do_all>
       </actions>
     </cue>
