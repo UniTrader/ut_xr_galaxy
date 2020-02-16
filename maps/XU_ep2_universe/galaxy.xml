@@ -1,192 +1,219 @@
-<?xml version="1.0" encoding="utf-8"?>
-<add sel="/macros/macro/connections">
-<!-- Calc Formula for Coordinates (A Line and 1 Row contains the coordinates):
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+  <add sel="/macros/macro/connections">
+    <!-- Calc Formula for Coordinates (A Line and 1 Row contains the coordinates):
 =VERKETTEN("x=";ZEICHEN(34);C$1*15000000;ZEICHEN(34);" y=";ZEICHEN(34);"0";ZEICHEN(34);" z=";ZEICHEN(34);WENN(ISTGERADE(C$1);$A2*17320000;$A2*17320000+8660000);ZEICHEN(34))
  -->
-<!-- DeVries-->
-      <connection name="XR_Cluster_DV_GT_connection" ref="clusters">
-        <macro ref="XR_Cluster_DV_GT_macro" connection="galaxy">
-          <offset>
-            <position x="165000000" y="0" z="-60620000"/><!-- X=11; Z=-4 -->
-          </offset>
-        </macro>
-      </connection>
-      <connection name="XR_Cluster_DV_BH_connection" ref="clusters">
-        <macro ref="XR_Cluster_DV_BH_macro" connection="galaxy">
-          <offset>
-            <position x="150000000" y="0" z="-69280000"/><!-- X=10; Z=-4 -->
-          </offset>
-        </macro>
-      </connection>
-      <connection name="XR_Cluster_DV_BP_connection" ref="clusters">
-        <macro ref="XR_Cluster_DV_BP_macro" connection="galaxy">
-          <offset>
-            <position x="165000000" y="0" z="-77940000"/><!-- X=10; Z=-5 -->
-          </offset>
-        </macro>
-      </connection>
-      <connection name="XR_Cluster_DV_MA_connection" ref="clusters">
-        <macro ref="XR_Cluster_DV_MA_macro" connection="galaxy">
-          <offset>
-            <position x="180000000" y="0" z="-86600000"/><!-- X=11;Z=-5-->
-          </offset>
-        </macro>
-      </connection>
-<!-- Albion -->
-      <connection name="XR_Cluster_AL_LA_connection" ref="clusters">
-        <macro ref="XR_Cluster_AL_LA_macro" connection="galaxy">
-          <offset>
-            <position x="135000000" y="0" z="-77940000"/><!--X=8 Z=-5 -->
-          </offset>
-        </macro>
-      </connection>
-      <connection name="XR_Cluster_AL_IW_connection" ref="clusters">
-        <macro ref="XR_Cluster_AL_IW_macro" connection="galaxy">
-          <offset>
-            <position x="135000000" y="0" z="-95260000"/><!--X=8 Z=-6 -->
-          </offset>
-        </macro>
-      </connection>
-      <connection name="XR_Cluster_AL_AS_connection" ref="clusters">
-        <macro ref="XR_Cluster_AL_AS_macro" connection="galaxy">
-          <offset>
-            <position x="135000000" y="0" z="-112580000"/><!--X=8 Z=-7 -->
-          </offset>
-        </macro>
-      </connection>
-      <connection name="XR_Cluster_AL_FO_connection" ref="clusters">
-        <macro ref="XR_Cluster_AL_FO_macro" connection="galaxy">
-          <offset>
-            <position x="150000000" y="0" z="-138560000"/><!--X=9 Z=-8 -->
-          </offset>
-        </macro>
-      </connection>
-<!-- Omicron Lyrae-->
-      <connection name="XR_Cluster_OL_CC_connection" ref="clusters">
-        <macro ref="XR_Cluster_OL_CC_macro" connection="galaxy">
-          <offset>
-            <position x="210000000" y="0" z="-69280000"/><!--X=13 Z=-4 -->
-          </offset>
-        </macro>
-      </connection>
-      <connection name="XR_Cluster_OL_EC_connection" ref="clusters">
-        <macro ref="XR_Cluster_OL_EC_macro" connection="galaxy">
-          <offset>
-            <position x="210000000" y="0" z="-86600000"/><!--X=13 Z=-5 -->
-          </offset>
-        </macro>
-      </connection>
-      <connection name="XR_Cluster_OL_RH_connection" ref="clusters">
-        <macro ref="XR_Cluster_OL_RH_macro" connection="galaxy">
-          <offset>
-            <position x="225000000" y="0" z="-60620000"/><!--X=14 Z=-4 -->
-          </offset>
-        </macro>
-      </connection>
-      <connection name="XR_Cluster_OL_DC_connection" ref="clusters">
-        <macro ref="XR_Cluster_OL_DC_macro" connection="galaxy">
-          <offset>
-            <position x="225000000" y="0" z="-77940000"/><!--X=14 Z=-5 -->
-          </offset>
-        </macro>
-      </connection>
-<!-- Maelstrom -->
-      <connection name="XR_Cluster_MA_SS_connection" ref="clusters">
-        <macro ref="XR_Cluster_MA_SS_macro" connection="galaxy">
-          <offset>
-            <position x="270000000" y="0" z="-103920000"/><!--X=17 Z=-6 -->
-          </offset>
-        </macro>
-      </connection>
-      <connection name="XR_Cluster_MA_BR_connection" ref="clusters">
-        <macro ref="XR_Cluster_MA_BR_macro" connection="galaxy">
-          <offset>
-            <position x="255000000" y="0" z="-95260000"/><!--X=16 Z=-6 -->
-          </offset>
-        </macro>
-      </connection>
-      <connection name="XR_Cluster_MA_SV_connection" ref="clusters">
-        <macro ref="XR_Cluster_MA_SV_macro" connection="galaxy">
-          <offset>
-            <position x="240000000" y="0" z="-121240000"/><!--X=15 Z=-7 -->
-          </offset>
-        </macro>
-      </connection>
-<!-- Fields of Opportunity -->
-      <connection name="XR_Cluster_FO_SH_connection" ref="clusters">
-        <macro ref="XR_Cluster_FO_SH_macro" connection="galaxy">
-          <offset>
-            <position x="195000000" y="0" z="-95260000"/><!--X=12 Z=-6 -->
-          </offset>
-        </macro>
-      </connection>
-      <connection name="XR_Cluster_FO_FP_connection" ref="clusters">
-        <macro ref="XR_Cluster_FO_FP_macro" connection="galaxy">
-          <offset>
-            <position x="180000000" y="0" z="-121240000"/><!--X=11 Z=-7 -->
-          </offset>
-        </macro>
-      </connection>
-<!-- Toride -->
-      <connection name="XR_Cluster_TO_KO_connection" ref="clusters">
-        <macro ref="XR_Cluster_TO_KO_macro" connection="galaxy">
-          <offset>
-            <position x="210000000" y="0" z="-138560000"/><!--X=13 Z=-8 -->
-          </offset>
-        </macro>
-      </connection>
-<!-- Cold Star-->
-      <connection name="XR_Cluster_CS_NE_connection" ref="clusters">
-        <macro ref="XR_Cluster_CS_NE_macro" connection="galaxy">
-          <offset>
-            <position x="180000000" y="0" z="-155880000"/><!--X=11 Z=-9 -->
-          </offset>
-        </macro>
-      </connection>
-      <connection name="XR_Cluster_CS_OM_connection" ref="clusters">
-        <macro ref="XR_Cluster_CS_OM_macro" connection="galaxy">
-          <offset>
-            <position x="165000000" y="0" z="-147220000"/><!--X=10 Z=-9 -->
-          </offset>
-        </macro>
-      </connection>
-      <connection name="XR_Cluster_CS_TQ_connection" ref="clusters">
-        <macro ref="XR_Cluster_CS_TQ_macro" connection="galaxy">
-          <offset>
-            <position x="165000000" y="0" z="-164540000"/><!--X=10 Z=-10 -->
-          </offset>
-        </macro>
-      </connection>
-<!-- Home of Light -->
-      <connection name="XR_Cluster_HL_WG_connection" ref="clusters">
-        <macro ref="XR_Cluster_OL_WG_macro" connection="galaxy">
-          <offset>
-            <position x="210000000" y="0" z="-173200000"/><!--X=13 Z=-10 -->
-          </offset>
-        </macro>
-      </connection>
-      <connection name="XR_Cluster_HL_ST_connection" ref="clusters">
-        <macro ref="XR_Cluster_OL_ST_macro" connection="galaxy">
-          <offset>
-            <position x="225000000" y="0" z="-147220000"/><!--X=14 Z=-9 -->
-          </offset>
-        </macro>
-      </connection>
-      <connection name="XR_Cluster_HL_AD_connection" ref="clusters">
-        <macro ref="XR_Cluster_OL_AD_macro" connection="galaxy">
-          <offset>
-            <position x="240000000" y="0" z="-173200000"/><!--X=15 Z=-10 -->
-          </offset>
-        </macro>
-      </connection>
-      <connection name="XR_Cluster_HL_HQ_connection" ref="clusters">
-        <macro ref="XR_Cluster_OL_HQ_macro" connection="galaxy">
-          <offset>
-            <position x="225000000" y="0" z="-164540000"/><!--X=14 Z=-10 -->
-          </offset>
-        </macro>
-      </connection>
-</add>
+    <!-- DeVries-->
+    <connection name="XR_Cluster_DV_GT_connection" ref="clusters">
+      <macro ref="XR_Cluster_DV_GT_macro" connection="galaxy">
+        <offset>
+          <position x="165000000" y="0" z="-60620000"/>
+          <!-- X=11; Z=-4 -->
+        </offset>
+      </macro>
+    </connection>
+    <connection name="XR_Cluster_DV_BH_connection" ref="clusters">
+      <macro ref="XR_Cluster_DV_BH_macro" connection="galaxy">
+        <offset>
+          <position x="150000000" y="0" z="-69280000"/>
+          <!-- X=10; Z=-4 -->
+        </offset>
+      </macro>
+    </connection>
+    <connection name="XR_Cluster_DV_BP_connection" ref="clusters">
+      <macro ref="XR_Cluster_DV_BP_macro" connection="galaxy">
+        <offset>
+          <position x="165000000" y="0" z="-77940000"/>
+          <!-- X=10; Z=-5 -->
+        </offset>
+      </macro>
+    </connection>
+    <connection name="XR_Cluster_DV_MA_connection" ref="clusters">
+      <macro ref="XR_Cluster_DV_MA_macro" connection="galaxy">
+        <offset>
+          <position x="180000000" y="0" z="-86600000"/>
+          <!-- X=11;Z=-5-->
+        </offset>
+      </macro>
+    </connection>
+    <!-- Albion -->
+    <connection name="XR_Cluster_AL_LA_connection" ref="clusters">
+      <macro ref="XR_Cluster_AL_LA_macro" connection="galaxy">
+        <offset>
+          <position x="135000000" y="0" z="-77940000"/>
+          <!--X=8 Z=-5 -->
+        </offset>
+      </macro>
+    </connection>
+    <connection name="XR_Cluster_AL_IW_connection" ref="clusters">
+      <macro ref="XR_Cluster_AL_IW_macro" connection="galaxy">
+        <offset>
+          <position x="135000000" y="0" z="-95260000"/>
+          <!--X=8 Z=-6 -->
+        </offset>
+      </macro>
+    </connection>
+    <connection name="XR_Cluster_AL_AS_connection" ref="clusters">
+      <macro ref="XR_Cluster_AL_AS_macro" connection="galaxy">
+        <offset>
+          <position x="135000000" y="0" z="-112580000"/>
+          <!--X=8 Z=-7 -->
+        </offset>
+      </macro>
+    </connection>
+    <connection name="XR_Cluster_AL_FO_connection" ref="clusters">
+      <macro ref="XR_Cluster_AL_FO_macro" connection="galaxy">
+        <offset>
+          <position x="150000000" y="0" z="-138560000"/>
+          <!--X=9 Z=-8 -->
+        </offset>
+      </macro>
+    </connection>
+    <!-- Omicron Lyrae-->
+    <connection name="XR_Cluster_OL_CC_connection" ref="clusters">
+      <macro ref="XR_Cluster_OL_CC_macro" connection="galaxy">
+        <offset>
+          <position x="210000000" y="0" z="-69280000"/>
+          <!--X=13 Z=-4 -->
+        </offset>
+      </macro>
+    </connection>
+    <connection name="XR_Cluster_OL_EC_connection" ref="clusters">
+      <macro ref="XR_Cluster_OL_EC_macro" connection="galaxy">
+        <offset>
+          <position x="210000000" y="0" z="-86600000"/>
+          <!--X=13 Z=-5 -->
+        </offset>
+      </macro>
+    </connection>
+    <connection name="XR_Cluster_OL_RH_connection" ref="clusters">
+      <macro ref="XR_Cluster_OL_RH_macro" connection="galaxy">
+        <offset>
+          <position x="225000000" y="0" z="-60620000"/>
+          <!--X=14 Z=-4 -->
+        </offset>
+      </macro>
+    </connection>
+    <connection name="XR_Cluster_OL_DC_connection" ref="clusters">
+      <macro ref="XR_Cluster_OL_DC_macro" connection="galaxy">
+        <offset>
+          <position x="225000000" y="0" z="-77940000"/>
+          <!--X=14 Z=-5 -->
+        </offset>
+      </macro>
+    </connection>
+    <!-- Maelstrom -->
+    <connection name="XR_Cluster_MA_SS_connection" ref="clusters">
+      <macro ref="XR_Cluster_MA_SS_macro" connection="galaxy">
+        <offset>
+          <position x="270000000" y="0" z="-103920000"/>
+          <!--X=17 Z=-6 -->
+        </offset>
+      </macro>
+    </connection>
+    <connection name="XR_Cluster_MA_BR_connection" ref="clusters">
+      <macro ref="XR_Cluster_MA_BR_macro" connection="galaxy">
+        <offset>
+          <position x="255000000" y="0" z="-95260000"/>
+          <!--X=16 Z=-6 -->
+        </offset>
+      </macro>
+    </connection>
+    <connection name="XR_Cluster_MA_SV_connection" ref="clusters">
+      <macro ref="XR_Cluster_MA_SV_macro" connection="galaxy">
+        <offset>
+          <position x="240000000" y="0" z="-121240000"/>
+          <!--X=15 Z=-7 -->
+        </offset>
+      </macro>
+    </connection>
+    <!-- Fields of Opportunity -->
+    <connection name="XR_Cluster_FO_SH_connection" ref="clusters">
+      <macro ref="XR_Cluster_FO_SH_macro" connection="galaxy">
+        <offset>
+          <position x="195000000" y="0" z="-95260000"/>
+          <!--X=12 Z=-6 -->
+        </offset>
+      </macro>
+    </connection>
+    <connection name="XR_Cluster_FO_FP_connection" ref="clusters">
+      <macro ref="XR_Cluster_FO_FP_macro" connection="galaxy">
+        <offset>
+          <position x="180000000" y="0" z="-121240000"/>
+          <!--X=11 Z=-7 -->
+        </offset>
+      </macro>
+    </connection>
+    <!-- Toride -->
+    <connection name="XR_Cluster_TO_KO_connection" ref="clusters">
+      <macro ref="XR_Cluster_TO_KO_macro" connection="galaxy">
+        <offset>
+          <position x="210000000" y="0" z="-138560000"/>
+          <!--X=13 Z=-8 -->
+        </offset>
+      </macro>
+    </connection>
+    <!-- Cold Star-->
+    <connection name="XR_Cluster_CS_NE_connection" ref="clusters">
+      <macro ref="XR_Cluster_CS_NE_macro" connection="galaxy">
+        <offset>
+          <position x="180000000" y="0" z="-155880000"/>
+          <!--X=11 Z=-9 -->
+        </offset>
+      </macro>
+    </connection>
+    <connection name="XR_Cluster_CS_OM_connection" ref="clusters">
+      <macro ref="XR_Cluster_CS_OM_macro" connection="galaxy">
+        <offset>
+          <position x="165000000" y="0" z="-147220000"/>
+          <!--X=10 Z=-9 -->
+        </offset>
+      </macro>
+    </connection>
+    <connection name="XR_Cluster_CS_TQ_connection" ref="clusters">
+      <macro ref="XR_Cluster_CS_TQ_macro" connection="galaxy">
+        <offset>
+          <position x="165000000" y="0" z="-164540000"/>
+          <!--X=10 Z=-10 -->
+        </offset>
+      </macro>
+    </connection>
+    <!-- Home of Light -->
+    <connection name="XR_Cluster_HL_WG_connection" ref="clusters">
+      <macro ref="XR_Cluster_OL_WG_macro" connection="galaxy">
+        <offset>
+          <position x="210000000" y="0" z="-173200000"/>
+          <!--X=13 Z=-10 -->
+        </offset>
+      </macro>
+    </connection>
+    <connection name="XR_Cluster_HL_ST_connection" ref="clusters">
+      <macro ref="XR_Cluster_OL_ST_macro" connection="galaxy">
+        <offset>
+          <position x="225000000" y="0" z="-147220000"/>
+          <!--X=14 Z=-9 -->
+        </offset>
+      </macro>
+    </connection>
+    <connection name="XR_Cluster_HL_AD_connection" ref="clusters">
+      <macro ref="XR_Cluster_OL_AD_macro" connection="galaxy">
+        <offset>
+          <position x="240000000" y="0" z="-173200000"/>
+          <!--X=15 Z=-10 -->
+        </offset>
+      </macro>
+    </connection>
+    <connection name="XR_Cluster_HL_HQ_connection" ref="clusters">
+      <macro ref="XR_Cluster_OL_HQ_macro" connection="galaxy">
+        <offset>
+          <position x="225000000" y="0" z="-164540000"/>
+          <!--X=14 Z=-10 -->
+        </offset>
+      </macro>
+    </connection>
+  </add>
+</diff>
 <!--
       <connection name="ClusterGate001To004" ref="destination" path="../Cluster_01_connection/Cluster_01_Sector001_connection/Zone003_Cluster_01_Sector001_connection/connection_ClusterGate001To004">
         <macro connection="destination" path="../../../../../Cluster_04_connection/Cluster_04_Sector002_connection/Zone001_Cluster_04_Sector002_connection/connection_ClusterGate004To001" />
