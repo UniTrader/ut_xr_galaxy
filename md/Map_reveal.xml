@@ -13,14 +13,24 @@
         <find_gate groupname="$reveal" multiple="true" space="player.galaxy"/>
         <do_all exact="$reveal.count" counter="$i">
           <set_known object="$reveal.{$i}" known="true"/>
-          <substitute_text text="$check" source="$reveal.{$i}.macro.id">
+          <!--substitute_text text="$check" source="$reveal.{$i}.macro.id">
             <replace string="'xr_'" with="''"/>
           </substitute_text>
           <do_if value="$check != $reveal.{$i}.macro.id">
             <debug_text filter="general" text="$reveal.{$i}.macro.id + '//' + $reveal.{$i}.position.x + '//' + $reveal.{$i}.position.z"/>
-          </do_if>
+          </do_if-->
         </do_all>
       </actions>
+      <cues>
+        <cue name="Warp">
+          <delay exact="1min"/>
+          <actions>
+            <find_cluster name="$cluster" macro="macro.xr_cluster_dv_bh_macro"/>
+            <find_zone name="$zone" space="$cluster"/>
+            <warp object="player.container" zone="$zone"/>
+          </actions>
+        </cue>
+      </cues>
     </cue>
   </cues>
 </mdscript>
