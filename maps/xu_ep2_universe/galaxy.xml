@@ -46,8 +46,8 @@
         </offset>
       </macro>
     </connection>
-    <connection name="xr_cluster_al_Iw_connection" ref="clusters">
-      <macro ref="xr_cluster_al_Iw_macro" connection="galaxy">
+    <connection name="xr_cluster_al_iw_connection" ref="clusters">
+      <macro ref="xr_cluster_al_iw_macro" connection="galaxy">
         <offset>
           <position x="135000000" y="0" z="-95260000"/>
           <!--X=8 Z=-6 -->
@@ -181,7 +181,7 @@
     </connection>
     <!-- Home of Light -->
     <connection name="xr_cluster_hl_wg_connection" ref="clusters">
-      <macro ref="xr_cluster_ol_wg_macro" connection="galaxy">
+      <macro ref="xr_cluster_hl_wg_macro" connection="galaxy">
         <offset>
           <position x="210000000" y="0" z="-173200000"/>
           <!--X=13 Z=-10 -->
@@ -189,7 +189,7 @@
       </macro>
     </connection>
     <connection name="xr_cluster_hl_st_connection" ref="clusters">
-      <macro ref="xr_cluster_ol_st_macro" connection="galaxy">
+      <macro ref="xr_cluster_hl_st_macro" connection="galaxy">
         <offset>
           <position x="225000000" y="0" z="-147220000"/>
           <!--X=14 Z=-9 -->
@@ -197,7 +197,7 @@
       </macro>
     </connection>
     <connection name="xr_cluster_hl_ad_connection" ref="clusters">
-      <macro ref="xr_cluster_ol_ad_macro" connection="galaxy">
+      <macro ref="xr_cluster_hl_ad_macro" connection="galaxy">
         <offset>
           <position x="240000000" y="0" z="-173200000"/>
           <!--X=15 Z=-10 -->
@@ -205,7 +205,7 @@
       </macro>
     </connection>
     <connection name="xr_cluster_hl_hq_connection" ref="clusters">
-      <macro ref="xr_cluster_ol_hq_macro" connection="galaxy">
+      <macro ref="xr_cluster_hl_hq_macro" connection="galaxy">
         <offset>
           <position x="225000000" y="0" z="-164540000"/>
           <!--X=14 Z=-10 -->
