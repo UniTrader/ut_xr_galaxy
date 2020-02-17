@@ -27,7 +27,7 @@
         <cue name="Warp">
           <delay exact="30s"/>
           <actions>
-            <find_cluster name="$cluster" macro="$clusters.{$index}"/>
+            <find_cluster name="$clusters" macro="$clusters.{$index}"/>
             <set_value name="$index" operation="add"/>
             <do_if value="$index gt $cluster.count">
               <set_value name="$index" exact="0"/>
