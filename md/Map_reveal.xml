@@ -21,7 +21,7 @@
           </do_if-->
         </do_all>
         <set_value name="$clusters" exact="[macro.xr_cluster_dv_bh_macro,macro.xr_cluster_al_fo_macro,macro.xr_cluster_ol_cc_macro,macro.xr_cluster_ma_ss_macro,macro.xr_cluster_fo_sh_macro,macro.xr_cluster_to_ko_macro,macro.xr_cluster_cs_om_macro,macro.xr_cluster_hl_hq_macro]"/>
-        <set_value name="$index" exact="0"/>
+        <set_value name="$index" exact="1"/>
       </actions>
       <cues>
         <cue name="Warp">
@@ -29,8 +29,8 @@
           <actions>
             <find_cluster name="$clusters" macro="$clusters.{$index}"/>
             <set_value name="$index" operation="add"/>
-            <do_if value="$index gt $cluster.count">
-              <set_value name="$index" exact="0"/>
+            <do_if value="$index gt $clusters.count">
+              <set_value name="$index" exact="1"/>
             </do_if>
             <find_zone name="$zone" space="$cluster"/>
             <warp object="player.container" zone="$zone"/>
